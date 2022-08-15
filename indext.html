@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script defer src="mian.js"></script>
+<title>The Weather Tracker 5000</title>
+<style>
+  body {
+    background-image: 
+    url("https://www.zmescience.com/mrf4u/statics/i/ps/cdn.zmescience.com/wp-content/uploads/2015/05/1379398021_lightning-wallpaper.jpg?width=1200&enable=upscale");
+  }
+</style>
+</head>
+<body>
+  <h1 class="container text-center">The Weather Tracker 5000</h>
+    <div class="container">
+      <form class="col-md-6 m-auto py-5">
+        <div class="input-group mb-3">
+          <input
+            id="search-action"
+            type="text"
+            class="form-control"
+            placeholder="Enter a location for Weather ..."
+          />
+          <div class="input-group-append">
+            <button id="submit" type="button" class="btn btn-danger">
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="weather-status text-dark text-center">
+        <img
+          id="WeatherIconStatus"
+          src="https://openweathermap.org/img/wn/02d@2x.png"
+          alt=""
+        />
+
+        <h1 id="city">City</h1>
+        <div class="row justify-content-center" id="vertical-align">
+          <div class="card text-center bg-secondary mb-3" id="card1">
+            <div class="card-header" style="color: white;">
+              <h3>Weather Description</h3>
+
+            </div>
+            <div id="Description" class="card-body" style="color: white;">
+                <p class="card-title"></p>
+            </div>
+          </div>
+        </div>
+
+
+
+        
+        <div class="row justify-content-center" id="vertical-align">
+          <div class="card text-center bg-secondary mb-3" id="card2">
+            <div class="card-header" style="color: white;">
+              <h3>Temperature</h3>
+              
+            </div>
+            <div class="card-body" style="color: white;">
+              <h3 id="Temperature"></h3>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row justify-content-center" id="vertical-align">
+          <div class="card text-center bg-secondary mb-3" id="card2">
+            <div class="card-header" style="color: white;">
+              <h3>Feels Like</h3>
+              
+            </div>
+            <div class="card-body" style="color: white;">
+              <h3 id="feels"></h3>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row justify-content-center" id="vertical-align">
+          <div class="card text-center bg-secondary mb-3" id="card2">
+            <div class="card-header" style="color: white;">
+              <h3>Humidity</h3>
+              
+            </div>
+            <div class="card-body" style="color: white;">
+              <h3 id="Humidity"></h3>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="row justify-content-center" id="vertical-align">
+          <div class="card text-center bg-secondary mb-3" id="card2">
+            <div class="card-header" style="color: white;">
+              <h3>Wind Speed</h3>
+              
+            </div>
+            <div class="card-body" style="color: white;">
+              <h3 id="Wind Speed"></h3>
+            </div>
+          </div>
+        </div>
+       
+       
+      </div>
+    </div>
+  </body>
+</html>
